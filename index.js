@@ -10,6 +10,7 @@ preventRefreshOnSubmit()
 
 
 // retrieveEmployeeInformation(): This retrieves the employee information from the input. It returns a string equal to the value in the input.
+<<<<<<< HEAD
 
 
 const result = document.querySelector('input');
@@ -38,6 +39,25 @@ function addNewElementAsLi() {
 }
 
 
+=======
+let result = document.querySelector('input')
+
+function retrieveEmployeeInformation() {
+  //query selector lets you find the first element  that matches css selector
+  //return value from function
+  return result.value
+}
+
+// addNewElementAsLi(): This function takes the value retrieved from the previous retrieveEmployeeInformation function
+// adds that string to a new list element which is appended to the ul with class "employee-list".
+
+function addNewElementAsLi() {
+  let employeeList = retrieveEmployeeInformation()
+  return document.querySelector('employee-list')
+}
+
+//
+>>>>>>> 2ab831e6bc90420c096bae23949442dee0a36c20
 // addNewLiOnClick(): This retrieves the employee information from the input.
 
 function addNewLiOnClick() {
