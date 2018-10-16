@@ -10,7 +10,7 @@ preventRefreshOnSubmit()
 
 
 // retrieveEmployeeInformation(): This retrieves the employee information from the input. It returns a string equal to the value in the input.
-<<<<<<< HEAD
+
 
 
 const result = document.querySelector('input');
@@ -39,7 +39,6 @@ function addNewElementAsLi() {
 }
 
 
-=======
 let result = document.querySelector('input')
 
 function retrieveEmployeeInformation() {
