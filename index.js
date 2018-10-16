@@ -38,15 +38,6 @@ function addNewElementAsLi() {
   // return employeeList.insertAdjacentHTML('beforeend', `<li>${employee}</li>`);
 }
 
-
-let result = document.querySelector('input')
-
-function retrieveEmployeeInformation() {
-  //query selector lets you find the first element  that matches css selector
-  //return value from function
-  return result.value
-}
-
 // addNewElementAsLi(): This function takes the value retrieved from the previous retrieveEmployeeInformation function
 // adds that string to a new list element which is appended to the ul with class "employee-list".
 
