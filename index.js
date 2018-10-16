@@ -56,7 +56,6 @@ function addNewElementAsLi() {
 }
 
 //
->>>>>>> 2ab831e6bc90420c096bae23949442dee0a36c20
 // addNewLiOnClick(): This retrieves the employee information from the input.
 
 function addNewLiOnClick() {
